@@ -27,7 +27,7 @@ def find_model_file():
     model_dir = "models" 
     
     possible_paths = [
-        os.path.join(model_dir, "mango_disease_model.keras"),
+        os.path.join(model_dir, "mango_disease_model_converted.h5"),
         # os.path.join(model_dir, "mobilenetv2_mango_best_finetuned.h5"),
         # # Also check for any .keras or .h5 files in the directory
         # *glob.glob(os.path.join(model_dir, "*.keras")),
