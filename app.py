@@ -138,9 +138,3 @@ async def model_info():
         "num_classes": len(class_names),
         "classes": class_names
     }
-
-if __name__ == "__main__":
-    print("\n" + "="*60)
-    print("Starting Mango Disease Detection API Server")
-    print("="*60 + "\n")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
